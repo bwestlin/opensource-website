@@ -1,7 +1,7 @@
 {% macro header() %}
 <header class="header">
     <div class="logo-embark">
-        <a href="https://embark-studios.com"><img id="logo" src="/img/logo.png" /></a> 
+        <a href="https://embark-studios.com"><img id="logo" src="img/logo.png" /></a> 
         <div id="developer">DEVELOPER</div>
     </div>
     <div class="icon-container">
@@ -18,7 +18,7 @@
 <div class="tags">
     {% for tag in tags | sort() %}
     <div class="tag tag-{{ tag }}">
-        <a href="/tags?tag={{ tag }}">{{ tag }}</a>
+        <a href="tags?tag={{ tag }}">{{ tag }}</a>
     </div>
     {% endfor %}
 </div>
